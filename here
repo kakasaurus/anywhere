@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Redirecting...</title>
+  <script>
+    // 여기에 새 주소만 바꿔 넣으면 됩니다 ↓↓↓
+    const TARGET_URL = "https://www.menti.com/alebdf412kv1";
+
+    // 리다이렉트 실행
+    window.location.replace(TARGET_URL);
+  </script>
+</head>
+<body>
+  <p>Redirecting...<br>
+  자동으로 이동하지 않으면 <a id="link" href="#">여기를 클릭</a></p>
+  <script>
+    document.getElementById('link').href = TARGET_URL;
+  </script>
+</body>
+</html>
