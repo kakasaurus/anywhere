@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Redirecting...</title>
   <script>
-    const TARGET_URL = "https://www.menti.com/alebdf412kv1"; // ← 여기만 바꾸세요
+    const TARGET_URL = "https://www.menti.com"; // ← 여기만 바꾸세요
     window.location.replace(TARGET_URL);
   </script>
 </head>
